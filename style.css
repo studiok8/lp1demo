@@ -1,0 +1,93 @@
+body{
+    background-color: rgb(241, 98, 98);
+    font-family: 'Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',sans-serif;
+    text-align: center;
+}
+img{
+    border-radius: 3px;
+    width: 65vw;
+    display:inline
+}
+.btn {
+    display: block;
+    width:18%;
+    height: 50px;
+    background: rgb(0, 0, 0);
+    color: rgba(240, 223, 176, 0.918);
+    font-weight: bold;
+    padding-top: 22px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 35px;
+}
+.btn:hover{
+	background: #020205;
+	color: rgba(218, 15, 15, 0.993);
+	transition: 0.4s;
+}
+.content p{
+    font-size: 3em;
+}
+h2{
+    color: rgba(240, 230, 140, 0.685);
+    font-weight: bold;
+}
+
+h3{
+    font-size: 1.6em;
+    margin-top: 3em;
+}
+iframe{
+    border-radius: 5px;
+    left: 30px;
+    float: left;
+    margin: 0 0 20px 20px;
+}
+.address ul {
+    padding-top: 20px;
+    float: left;
+}
+.address ul li{
+    font-weight: bold;
+    list-style: none;
+    text-align: left;
+    padding: 8px 0;
+}
+#page-top {
+    position: fixed;
+    right: 5px;
+    bottom: 150px;
+    height: 138px;
+    text-decoration: none;
+    font-weight: bold;
+    transform: rotate(90deg);
+    font-size: 1.8em;
+    line-height: 2.5rem;
+    color: #0a0808;
+    padding: 0 0 0 20px;
+    border-top: solid 2px;
+}
+#page-top::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -1px;
+    left: 0px;
+    width: 15px;
+    border-top: solid 2px;
+    transform: rotate(35deg);
+    transform-origin: left top;
+}
+footer{
+    float: left;
+    width: 100%;
+    height: 100px;
+    background-color: #eed286c7;
+    color: rgb(134, 118, 81);
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 20px;
+}
+.footer-menu li {
+    display: inline;
+    }
